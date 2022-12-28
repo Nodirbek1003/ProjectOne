@@ -1,0 +1,51 @@
+*{
+  /* border: 1px solid red; */
+}
+.header{
+  position: fixed;
+  background-color: rgba(14, 46, 134, 0.733);
+  top: 0px;
+  left: 0px;
+  padding: 5px 20px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  transition: 5s ease-in;
+}
+.nav-item{
+  margin-left: 10%;
+}
+#logo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+  margin-left: 2%;
+  color: wheat;
+}
+
+/* Home Page */
+
+.home{
+  position: relative;
+  left: 0px;
+  top: 60px;
+}
+
+#lorem{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 500px;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+#digital{
+  text-align: center;
+  margin-top: 100px;
+}
+#btn{
+  margin: 0px 300px;
+  text-decoration: none;
+  color: wheat;
+  padding: 10px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
