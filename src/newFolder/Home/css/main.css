@@ -1,0 +1,31 @@
+.home{
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  height: 90%;
+  background-image: ;
+}
+#lorem{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 500px;
+  margin: 20px auto;
+}
+#digital{
+  text-align: center;
+  margin-top: 30%;
+}
+#btn{
+  margin: 0px 300px;
+  text-decoration: none;
+  color: wheat;
+  padding: 10px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+img{
+  margin-top: 100px;
+  width: 101.8%;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}

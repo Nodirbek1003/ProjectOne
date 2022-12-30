@@ -1,7 +1,10 @@
 import React from "react";
+import IMG from "./picture/3.jpg"
+import './css/main.css'
+
 function Home() {
   return ( 
-    <div className="home">
+    <div className="container-fluid home">
         <div className="row">
           <div className="col-6">
             <h1 id="digital"><i>Azizjonov Nodirbek</i></h1>
@@ -11,7 +14,7 @@ function Home() {
             <button  className="btn btn-primary" id="btn">yangiliklar</button>
           </div>
           <div className="col-6">
-            {/* <img src="" classname="img" alt="Responsive image" /> */}
+            <img src={IMG} classname="img" alt="Responsive image"/>
           </div>
         </div>
     </div>

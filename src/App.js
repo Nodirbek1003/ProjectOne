@@ -9,7 +9,7 @@ import Work from './newFolder/work/work';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container-fluid App">
       <Navbar/>
       <Routes>
           <Route path='home' element={<Home/>} />
