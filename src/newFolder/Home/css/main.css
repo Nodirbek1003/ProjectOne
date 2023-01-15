@@ -1,31 +1,40 @@
 .home{
-  position: absolute;
+  /* background-image: ; */
+  position: relative;
+  top: 0px;
   left: 0px;
-  top: 55px;
-  height: 90%;
-  background-image: ;
 }
 #lorem{
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  width: 500px;
-  margin: 20px auto;
+  width: 65%;
+  margin: 2% auto;
 }
 #digital{
   text-align: center;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 #btn{
-  margin: 0px 300px;
+  margin: 0% 44%;
   text-decoration: none;
   color: wheat;
-  padding: 10px;
-  background-color: cornflowerblue;
+  padding: 2% 10%;
+  background: linear-gradient(to right,crimson,blue);
+  border: 0px;
   border-radius: 10px;
+  width: 50%;
+}
+#btn:hover{
+  background: linear-gradient(to left,crimson,blue);
+  transition: 2s all;
 }
 img{
-  margin-top: 100px;
-  width: 101.8%;
+  margin-top: 10%;
+  margin-left: 11.8%;
+  width: 90%;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
+}
+.thank{
+  width: 50%;
 }

@@ -11,14 +11,14 @@ function Home() {
             <p id="lorem">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque incidunt in provident laboriosam molestiae quod quasi, tempora consectetur error maxime ullam nesciunt, veritatis quaerat illo labore at recusandae ad qui soluta. Optio reiciendis excepturi nihil dolore maiores asperiores eum sequi odit dicta, placeat, saepe quaerat qui natus beatae? Distinctio, doloremque!
             </p>
-            <button  className="btn btn-primary" id="btn">yangiliklar</button>
+            <button  className="btn btn-primary" id="btn">See More</button>
           </div>
-          <div className="col-6">
+          <div className="col-6 thank">
             <img src={IMG} classname="img" alt="Responsive image"/>
           </div>
         </div>
     </div>
-   );
+  );
 }
 
 export default Home;

@@ -2,18 +2,19 @@
   /* border: 1px solid red; */
   box-sizing: border-box;
 }
+.App{
+  padding: 0px;
+}
 .header{
-  position: fixed;
   background-color: rgba(14, 46, 134, 0.733);
+  padding: 0.5% 2%;
+}
+.nav{
+  padding: 0px;
+  margin: 0px;
+  position: sticky;
   top: 0px;
-  left: 0px;
-  padding: 5px 20px;
-  justify-content: space-between;
-  align-items: center;
   z-index: 999;
-  transition: 5s ease-in;
-  width: 100%;
-  border: 1px solid red;
 }
 .nav-item{
   margin-left: 10%;
