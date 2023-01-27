@@ -1,0 +1,38 @@
+#AboutHeader{
+  background-color: #4E66A6;
+  height: 50vh;
+}
+.Abouth1{
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+.AboutBlock_1{
+  padding-left: 10%;
+}
+#AboutImg{
+  width: 85%;
+  height: 90%;
+  margin-top: 20%;
+  border-radius: 100%
+}
+.AboutMe{
+  margin-top: 30%;
+  opacity: 0.5;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: normal;
+  color: yellow;
+}
+.AboutName{
+  color: #4E66A6;
+  text-transform: uppercase;
+}
+.AboutBtn{
+  padding: 10px 40px;
+  color: white;
+  font-weight: 600;
+  border-radius: 60px;
+  border: none;
+}
