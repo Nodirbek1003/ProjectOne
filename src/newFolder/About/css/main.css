@@ -1,5 +1,5 @@
 #AboutHeader{
-  background-color: #4E66A6;
+  background-color: #FF4903;
   height: 50vh;
 }
 .Abouth1{
@@ -12,27 +12,58 @@
   padding-left: 10%;
 }
 #AboutImg{
-  width: 85%;
-  height: 90%;
-  margin-top: 20%;
+  width: 95%;
   border-radius: 100%
 }
 .AboutMe{
-  margin-top: 30%;
   opacity: 0.5;
   font-weight: 600;
   font-style: italic;
   letter-spacing: normal;
-  color: yellow;
+  color: #FF4903;
+  /* text-decoration: underline; */
 }
 .AboutName{
-  color: #4E66A6;
+  color: #FF4903;
   text-transform: uppercase;
 }
-.AboutBtn{
-  padding: 10px 40px;
+#AboutBtn{
+  margin-left: 0px;
+}
+.AboutBoday{
+  padding: 30px 40px;
+}
+.AboutHr1{
+  margin-left: 30px;
+  width: 60px;
+  background-color: #FF4903;
+  margin-bottom: 4px;
+}
+.AboutHr2{
+  margin-left: -20px;
+  width: 60px;
+  background-color: #FF4903;
+  margin-top: -2px;
+}
+.AboutHr3{
+  /* margin-left: 55%; */
+  width: 140px;
+  background-color: white;
+  position: relative;
+  top: 120px;
+  left: 50%;
+}
+.AboutHr4{
+  margin-left: 40%;
+  width: 140px;
+  background-color: white;
+}
+.AboutAnimated{
+  background-color: #FF4903;
   color: white;
-  font-weight: 600;
-  border-radius: 60px;
-  border: none;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 1rem 1rem;
+  font-weight: 700;
+  font-size: larger;
 }

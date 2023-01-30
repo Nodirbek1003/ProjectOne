@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 .HeaderBox{
-  background-color: #4E66A6;
+  background-color: #FF4903;
   height: 50vh;
 }
 .HeaderH1{
@@ -16,19 +16,18 @@
 .App{
   padding: 0px;
 }
-#HomeBtn{
-  margin: 0% 10%;
+.Btn{
   text-decoration: none;
   color: white;
   padding: 2% 4%;
   border: 0px;
   border-radius: 10px;
-  width: 30%;
   font-weight: 600;
+  background-color: #FF4903;
 }
-#HomeBtn:focus{
+.Btn:focus{
   color: black;
 }
-#HomeBtn:hover{
+.Btn:hover{
   color: black;
 }

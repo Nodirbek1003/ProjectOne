@@ -23,7 +23,7 @@ function Home() {
               <a href="https://t.me/Abssbsbbejd" id="faTeg"><FaTelegram/></a>
               <a href="https://github.com/Nodirbek1003" id="faGit"><FaGithub/></a>
             </div>
-            <button  className="btn btn-warning" id="HomeBtn">See More</button>
+            <button  className="Btn" id="HomeBtn">See More</button>
           </div>
         </div>
     </div>

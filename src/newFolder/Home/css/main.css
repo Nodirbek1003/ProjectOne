@@ -7,14 +7,14 @@
 #lorem{
   margin-left: 10%;
   margin-top: 5%;
-  color: #4E66A6;
+  color: #FF4903;
 }
 #digital{
   margin-bottom: 2%;
 }
 #HomeImg{
   margin-top: 20%;
-  margin-left: -4%;
+  /* margin-left: %; */
   width: 90%;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -29,7 +29,9 @@
   opacity: 0.8;
   border-radius: 10px;
 }
-
+#HomeBtn{
+  margin: 0% 10%;
+}
 /* Home Icon */
 #homeIconDiv{
   margin-left: 10%;
