@@ -67,6 +67,11 @@ function About() {
             </div>
           </div>
         </div>
+        <div className="container-fluid">
+          <div className="row AboutAnimated">
+            <marquee>About Me</marquee>
+          </div>
+        </div>
 {/* Footer Page */}
         <div className="container-fluid Footer">
           <div className="row">

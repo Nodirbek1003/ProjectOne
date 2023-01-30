@@ -1,12 +1,11 @@
 .header{
   background-color: #FF4903;
-  padding: 0.5% 2%;
 }
 .nav{
-  padding: 0px;
-  margin: 0px;
+  padding: 0rem;
+  margin: 0rem;
   position: sticky;
-  top: 0px;
+  top: 0%;
   z-index: 999;
   box-shadow: 0px 1px 2px #FF4903;
 }
@@ -17,7 +16,7 @@
   color: yellow;
 }
 .nav-item{
-  margin-left: 10%;
+  margin-left: 3.5rem;
 }
 .nav-link{
   font-weight: 700;
@@ -28,6 +27,6 @@
 #logo{
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: inline-block;
-  margin-left: 2%;
+  margin-left: 2rem;
   color: white;
 }

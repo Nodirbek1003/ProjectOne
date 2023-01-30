@@ -1,9 +1,6 @@
 .recharts-responsive-container{
   height: 400px!important;
 }
-/* .row>*{
-  padding: 0px;
-} */
 .container-fluid{
   padding: 0px;
 }
@@ -19,3 +16,4 @@
 ul li{
   display: inline-block;
 }
+/* Grafik */

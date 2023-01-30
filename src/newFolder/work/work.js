@@ -10,13 +10,18 @@ function Work() {
             <h1 className="HeaderH1"><i>Work Page</i></h1>
           </div>
       </div>
+{/* WorkBoday */}
       <div className="container">
-        <div className="row tbody"></div>
+        <div className="row tbody">
+          <div className="col-4"></div>
+          <div className="col-4"></div>
+          <div className="col-4"></div>
+        </div>
       </div>
+{/* WorkFooter */}
       <div className="container-fluid Footer">
         <div className="row">
-          <div className="col-4">
-          </div>
+          <div className="col-4"></div>
           <div className="col-4">
             <ul>
               <li><NavLink className="nav-link" to="/home" id="FooterNav">Home</NavLink></li>

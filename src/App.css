@@ -11,15 +11,15 @@
   opacity: 0.9;
   color: white;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 8rem;
 }
 .App{
-  padding: 0px;
+  padding: 0;
 }
 .Btn{
   text-decoration: none;
   color: white;
-  padding: 2% 4%;
+  padding: 0.6rem 1rem;
   border: 0px;
   border-radius: 10px;
   font-weight: 600;
