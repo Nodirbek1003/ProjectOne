@@ -1,32 +1,28 @@
-.header{
-  background-color: #FF4903;
-}
-.nav{
-  padding: 0rem;
-  margin: 0rem;
+
+.navbar{
+  background-color: royalblue;
+  opacity: 0.7;
   position: sticky;
-  top: 0%;
+  top: 0px;
   z-index: 999;
-  box-shadow: 0px 1px 2px #FF4903;
+  border: 0px;
+  /* font-family: sans-serif; */
+  font-weight: 550;
 }
-#nav{
+.dropdown{
   color: white;
+  background-color: transparent;
 }
-#nav:focus{
-  color: yellow;
+.dropdown-link:hover{
+  background-color: white;
 }
-.nav-item{
-  margin-left: 3.5rem;
+.dropdown-link{
+  color: white;
 }
 .nav-link{
-  font-weight: 700;
-}
-.nav-link:focus{
-  border-bottom: 2px solid yellow;
-}
-#logo{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: inline-block;
-  margin-left: 2rem;
   color: white;
+  margin-left: 2rem;
+}
+.nav-link:hover{
+  color: blue;
 }

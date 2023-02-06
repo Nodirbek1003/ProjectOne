@@ -1,5 +1,4 @@
 #AboutHeader{
-  background-color: #FF4903;
   height: 50vh;
 }
 .Abouth1{
@@ -19,10 +18,10 @@
   font-weight: 600;
   font-style: italic;
   letter-spacing: normal;
-  color: #FF4903;
+  color: royalblue;
 }
 .AboutName{
-  color: #FF4903;
+  color: royalblue;
   text-transform: uppercase;
 }
 #AboutBtn{
@@ -34,29 +33,17 @@
 .AboutHr1{
   margin-left: 1.8rem;
   width: 15%;
-  background-color: #FF4903;
+  background-color: royalblue;
   margin-bottom: 4px;
 }
 .AboutHr2{
   margin-left: -1.25rem;
   width: 15%;
-  background-color: #FF4903;
+  background-color: royalblue;
   margin-top: -0.13rem;
 }
-.AboutHr3{
-  width: 10%;
-  background-color: white;
-  position: relative;
-  top: 32%;
-  left: 50%;
-}
-.AboutHr4{
-  margin-left: 33rem;
-  width: 10%;
-  background-color: white;
-}
 .AboutAnimated{
-  background-color: #FF4903;
+  background-color: royalblue;
   color: white;
   margin-top: 2rem;
   margin-bottom: 2rem;

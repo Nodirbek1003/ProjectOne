@@ -1,38 +1,49 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from 'react';
 import './css/nav.css'
+import {
+  Nav,
+  NavItem,
+  Dropdown,
+  DropdownItem,
+  DropdownToggle,
+  DropdownMenu,
+  NavLink,
+  NavbarBrand
+} from 'reactstrap';
 
-function Navbar() {
-  return ( 
-      <nav className="navbar navbar-expand-lg navbar-light nav">
-        <div className="container-fluid header">
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className="col-6">
-              <a href="#">
-                <h2 id="logo">N_A</h2>
-                <h3 id="logo"><i>Portfolio</i></h3>
-              </a>
-            </div>
-            <div className="col-6">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <NavLink className="nav-link Home" to="/home" id="nav">Home</NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/about" id="nav">About</NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to='/work' id="nav">Work</NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to='/contact' id="nav">Contact</NavLink>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-   );
+function Example(props) {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggle = () => setDropdownOpen(!dropdownOpen);
+
+  return (
+      <Nav horizontal='end' className='navbar'>
+        <NavItem>
+          <NavLink active href="./home" className='nav-link'>Home</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="./about" className='nav-link'>About</NavLink>
+        </NavItem>
+        <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
+        <DropdownToggle nav className='nav-link'>
+          Dropdown
+        </DropdownToggle>
+          <DropdownMenu className='dropdown'>
+            <DropdownItem href='./work' className='dropdown-link'>Work</DropdownItem>
+            <DropdownItem href='./work' className='dropdown-link'>Gallery</DropdownItem>
+            <DropdownItem disabled className='dropdown-link'>Disabled</DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
+        <NavItem>
+          <NavLink href="./contact" className='nav-link'>Contact</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink disabled href="#" className='nav-link'>
+            Disabled Link
+          </NavLink>
+        </NavItem>
+      </Nav>  
+  );
 }
 
-export default Navbar;
+export default Example;

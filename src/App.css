@@ -4,7 +4,8 @@
   font-family: sans-serif;
 }
 .HeaderBox{
-  background-color: #FF4903;
+  background-color: royalblue;
+  opacity: 0.7;
   height: 50vh;
 }
 .HeaderH1{
@@ -23,7 +24,7 @@
   border: 0px;
   border-radius: 10px;
   font-weight: 600;
-  background-color: #FF4903;
+  background-color: royalblue;
 }
 .Btn:focus{
   color: black;
